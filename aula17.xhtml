@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+	<head>
+		<title>DOM HTML</title>
+		<link rel="stylesheet" type="text/css" href="css/aula17.css" media="all"/>
+		<script type="text/javascript" src="js/aula17.js"></script>
+	</head>
+	<body>
+		<h2 id="tit_id" name="tit_name" class="tit_class">DOM API</h2>
+
+		<div>
+			<img width="50" src="img/disponivel.png" alt="Disponível"/>
+			<img width="50" src="img/ocupada.png" alt="Ocupada"/>
+			<img width="50" src="img/selecionada.png" alt="Selecionada" id="selecionada"/>
+		</div>
+
+
+			<table>
+				<tr>
+					<th>ATRIBUTO</th>
+					<th>VALOR</th>
+				</tr>
+			</table>
+			<br/>
+			<fieldset>
+				<legend>Formulário</legend>
+				
+				<form id="form1" action="aula17.xhtml" method="post">
+					NOME: <input type="text" name="nome" />
+				</form>
+				<br/>
+				<form id="form2" action="aula17.xhtml" method="post">
+					ESTADO: 
+						<select name="estado">
+							<option value="DF">DISTRITO FEDERAL</option>
+							<option value="SP">SÃO PAULO</option>
+							<option value="RJ">RIO DE JANEIRO</option>
+						</select>
+				</form>
+
+			</fieldset>
+			<br/>
+			<div>
+				<input id="btn" type="submit" value="Executar JavaScript"/>
+				<input id="del" type="submit" value="Remover Linha"/>
+			</div>
+
+	</body>
+</html>

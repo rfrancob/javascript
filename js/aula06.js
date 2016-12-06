@@ -13,5 +13,5 @@ function calcularIMC(){
     var altura = ((metros * 100) + 83)/100;
     var imc = kilos / (altura * altura);
 
-    alert(imc);    
+    formulario.imc.value = imc.toFixed(2);
 }
